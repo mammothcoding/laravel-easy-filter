@@ -1,0 +1,39 @@
+{
+    "name": "mammothcoding/laravel-easy-filter",
+    "description": "Easy filter and sorter for indexlike requests",
+    "keywords": [
+        "laravel",
+        "eloquent filter",
+        "Eloquent Filter",
+        "laravel query filter",
+        "laravel filter",
+        "query-filter",
+        "filter",
+        "sorter",
+        "laravel filter multiple parameters",
+        "laravel index filter",
+        "index-filter"
+    ],
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Mammothcoding\\LaravelEasyFilter\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Mammoth",
+            "email": "mammothcoding@mamont.xyz"
+        }
+    ],
+    "require": {
+        "php": ">=7.4",
+        "illuminate/support": ">=v6.0.0",
+        "illuminate/container": ">=v6.0.0",
+        "illuminate/database": ">=v6.0.0",
+        "illuminate/pagination": ">=v6.0.0",
+        "illuminate/http": ">=v6.0.0",
+        "ext-json": ">=v6.0.0"
+    }
+}
